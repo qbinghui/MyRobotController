@@ -1,0 +1,294 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:nestedScrollingEnabled="true"
+    android:background="#ffffff"
+    >
+    <SeekBar
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/seekBar"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        />
+
+    <SeekBar
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/seekBar2"
+        android:layout_below="@+id/seekBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/seekBar3"
+        android:layout_below="@+id/seekBar"
+        android:layout_toRightOf="@+id/seekBar" />
+
+    <SeekBar
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/seekBar4"
+        android:layout_below="@+id/seekBar2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/seekBar5"
+        android:layout_below="@+id/seekBar3"
+        android:layout_alignStart="@+id/seekBar3"
+        android:layout_alignLeft="@+id/seekBar3"/>
+
+    <SeekBar
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/seekBar6"
+        android:layout_below="@+id/seekBar4"
+        android:layout_marginLeft="30dp" />
+
+
+    <SeekBar
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/seekBar7"
+        android:layout_below="@+id/seekBar5"
+        android:layout_marginLeft="170dp" />
+
+    <SeekBar
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/seekBar8"
+        android:layout_below="@+id/tv6"
+        android:layout_alignLeft="@+id/seekBar6"
+        />
+
+    <SeekBar
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/seekBar9"
+        android:layout_below="@+id/seekBar7"
+        android:layout_alignLeft="@+id/seekBar7"
+        />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/tv"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/seekBar" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/tv2"
+        android:layout_toRightOf="@+id/seekBar2"
+        android:layout_alignBottom="@+id/seekBar2"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/tv3"
+        android:layout_toRightOf="@+id/seekBar3"
+        android:layout_alignBottom="@+id/seekBar3" />
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/tv4"
+        android:layout_toRightOf="@+id/seekBar4"
+        android:layout_alignBottom="@+id/seekBar4" />
+
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/tv5"
+        android:layout_toRightOf="@+id/seekBar5"
+        android:layout_alignBottom="@+id/seekBar5"/>a
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/tv6"
+        android:layout_toRightOf="@+id/seekBar6"
+        android:layout_alignBottom="@+id/seekBar6"/>
+
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/tv7"
+        android:layout_toRightOf="@+id/seekBar7"
+        android:layout_alignBottom="@+id/seekBar7" />
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/tv8"
+        android:layout_toRightOf="@+id/seekBar8"
+        android:layout_alignBottom="@+id/seekBar8"/>
+
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/tv9"
+        android:layout_toRightOf="@+id/seekBar9"
+        android:layout_alignBottom="@+id/seekBar9" />
+
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:id="@+id/etRed"
+        android:layout_above="@+id/btnConnect"
+        android:text="250"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:id="@+id/etGreen"
+        android:layout_above="@+id/btnConnect"
+        android:layout_toRightOf="@+id/etRed"
+        android:gravity="center"
+        android:text="250"
+        />
+
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:id="@+id/etBlue"
+        android:layout_above="@+id/btnConnect"
+        android:layout_toRightOf="@+id/etGreen"
+        android:gravity="center"
+        android:text="250"
+        />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnRgb"
+        android:layout_above="@+id/btnConnect"
+        android:layout_toRightOf="@+id/etBlue"
+        android:text="点灯"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnConnect"
+        android:layout_alignParentBottom="true"
+        android:text="连接设备"
+        />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnRun"
+        android:text="运行"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnSave"
+        android:text="保存"
+        android:layout_toLeftOf="@+id/btnRun"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnImport"
+        android:text="导入"
+        android:layout_toLeftOf="@+id/btnSave"
+        android:layout_alignParentBottom="true"
+        />
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="270dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/btnRun"
+        android:background="#DDDDDD"
+
+        >
+        <EditText
+            android:id="@+id/etOrders"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            />
+    </ScrollView>
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnClean"
+        android:text="清空"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/sv"
+        />
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnDel"
+        android:text="删除"
+        android:layout_toLeftOf="@+id/btnClean"
+        android:layout_above="@+id/sv"
+        />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnAdd"
+        android:text="添加"
+        android:layout_toLeftOf="@+id/btnDel"
+        android:layout_above="@+id/sv"
+        />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="140dp"
+        android:layout_above="@+id/btnClean"
+        android:background="@drawable/robot"
+        android:id="@+id/ivLogo"
+        android:layout_alignParentRight="true"/>
+
+    <ScrollView
+        android:id="@+id/svConsole"
+        android:layout_width="220dp"
+        android:layout_height="140dp"
+        android:layout_above="@+id/btnClean"
+        android:layout_toLeftOf="@+id/ivLogo"
+        android:background="#DDDDDD"
+
+        >
+        <TextView
+            android:id="@+id/tvConsole"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            />
+    </ScrollView>
+
+</RelativeLayout>

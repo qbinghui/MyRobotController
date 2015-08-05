@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyRobotController</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="blue_not_avaliable">对不起，蓝牙不可用</string>
+    <string name="blue_not_enable">Bluetooth was not enabled.</string>
+</resources>
